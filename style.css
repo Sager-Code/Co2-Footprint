@@ -1,0 +1,73 @@
+/* Allgemeines Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center; /* Zentriert für Konsistenz in RTL */
+}
+
+nav a {
+    color: #ffc107;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: #ffc107;
+}
+
+/* Seitliches Menü */
+aside {
+    background-color: #f8f9fa;
+    border-right: 1px solid #dee2e6;
+    padding: 10px;
+}
+
+aside h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+/* Bilder */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* RTL-Unterstützung */
+[dir="rtl"] body {
+    direction: rtl;
+    text-align: right;
+}
+
+[dir="rtl"] header {
+    text-align: right;
+}
+
+[dir="rtl"] nav a {
+    margin: 0 10px;
+}
+
+[dir="rtl"] aside {
+    border-left: 1px solid #dee2e6;
+    border-right: none;
+}
+
+[dir="rtl"] footer {
+    text-align: right;
+}

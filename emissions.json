@@ -1,0 +1,7 @@
+[
+    { "land": "Deutschland", "unternehmen": "Beispiel AG", "emissionen": "10000" },
+    { "land": "USA", "unternehmen": "Example Inc", "emissionen": "50000" },
+    { "land": "China", "unternehmen": "Fiktive GmbH", "emissionen": "100000" },
+    { "land": "Indien", "unternehmen": "Mock Corporation", "emissionen": "20000" },
+    { "land": "Brasilien", "unternehmen": "Amazonas Energy", "emissionen": "15000" }
+]
